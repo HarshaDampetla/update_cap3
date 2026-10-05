@@ -1,0 +1,45 @@
+{
+  "name": "marketscope-trading-substrate",
+  "version": "1.0.0",
+  "description": "Project-specific AI-native engineering substrate for MarketScope — Stock Trading & Portfolio Analytics Platform (BC-AINE-006)",
+  "author": {
+    "name": "AI-Native Engineer",
+    "role": "Architect & Quality Gatekeeper"
+  },
+  "capabilities": {
+    "specs": [
+      "specs/app_spec.md",
+      "specs/user_management_spec.md",
+      "specs/stock_catalog_spec.md",
+      "specs/watchlist_spec.md",
+      "specs/order_spec.md",
+      "specs/portfolio_spec.md",
+      "specs/analytics_spec.md"
+    ],
+    "domain_agents": [
+      "order-lifecycle-agent",
+      "portfolio-stats-agent"
+    ],
+    "technical_agents": [
+      "crud-scaffolder-agent",
+      "archtest-author-agent"
+    ],
+    "skills": [
+      "portfolio-pnl-calculator",
+      "watchlist-validator",
+      "archtest-author",
+      "crud-controller-scaffolder"
+    ],
+    "hooks": [
+      "password-hash-check",
+      "role-boundary-check",
+      "executed-order-immutability-check",
+      "bigdecimal-enforcement-check"
+    ],
+    "commands": [
+      "seed-data",
+      "verify-ac",
+      "run-archtests"
+    ]
+  }
+}

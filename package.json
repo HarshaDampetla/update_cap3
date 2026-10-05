@@ -1,0 +1,13 @@
+{
+  "name": "marketscope",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MarketScope Stock Trading & Portfolio Analytics Platform",
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0"
+  }
+}
